@@ -28,11 +28,12 @@ local mod = E:NewModule(MyPluginName, "AceHook-3.0", "AceEvent-3.0", "AceTimer-3
 
 function private:GetResolution()
 	horizontal, vertical = GetPhysicalScreenSize()
+	
 	if vertical <= 1200 then
 		return 1080
 	else
 		return 1440
-	end
+	end 
 end
 
 --This function will hold your layout settings
