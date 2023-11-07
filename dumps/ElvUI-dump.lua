@@ -3718,7 +3718,7 @@ local function importglobalsetting()
             ["growth"] = "VERTICAL",
             ["width"] = 120,
             ["fonts"] = {
-                ["font"] = "Expressway",
+                ["font"] = "Cronix",
             },
             ["name"] = "Clock",
             ["frameStrata"] = "HIGH",
@@ -3732,7 +3732,7 @@ local function importglobalsetting()
             ["growth"] = "VERTICAL",
             ["width"] = 247,
             ["fonts"] = {
-                ["font"] = "Expressway",
+                ["font"] = "Cronix",
             },
             ["name"] = "Stuff",
             ["height"] = 47,
@@ -3747,7 +3747,7 @@ local function importglobalsetting1080()
             ["growth"] = "VERTICAL",
             ["width"] = 195,
             ["fonts"] = {
-                ["font"] = "Expressway",
+                ["font"] = "Cronix",
             },
             ["name"] = "Clock",
             ["frameStrata"] = "HIGH",
@@ -3762,7 +3762,7 @@ local function importglobalsetting1080()
             ["growth"] = "VERTICAL",
             ["width"] = 201,
             ["fonts"] = {
-                ["font"] = "Expressway",
+                ["font"] = "Cronix",
             },
             ["name"] = "Stuff",
             ["height"] = 47,
@@ -3772,6 +3772,7 @@ end
 function private:Elvinstall()
 
     local resolution = private:GetResolution()
+    
 
     if(resolution == 1440)then
         ElvDB["global"]["general"]["UIScale"] = 0.60

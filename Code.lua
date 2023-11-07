@@ -86,7 +86,8 @@ local InstallerData = {
 			else
 			PluginInstallFrame.SubTitle:SetFormattedText("Welcome to the installation for %s.", MyPluginName)
 			PluginInstallFrame.Desc1:SetText("This installation process will guide you through a few steps and create a new ElvUI profile. If you want to be able to go back to your original settings then create a new profile before going through this installation process.")
-			PluginInstallFrame.Desc2:SetText("Please press the continue button if you wish to go through the installation process, otherwise click the 'Skip Process' button.")
+			PluginInstallFrame.Desc2:SetText("|cffff0000Important! Only the 1440p Version is up to date, we recommend waiting for the 1080p version.|r")
+			PluginInstallFrame.Desc3:SetText("Please press the continue button if you wish to go through the installation process, otherwise click the 'Skip Process' button.")
 			PluginInstallFrame.Option1:Show()
 			PluginInstallFrame.Option1:SetScript("OnClick", function() InstallComplete() end)
 			PluginInstallFrame.Option1:SetText("Skip Process")
